@@ -21,7 +21,7 @@ class Oracle implements DB {
 		System.out.println("delete " + sql + " Oracle Database");
 	}
 	public String find(String sql){
-		System.out.println("find " + sql + " Oracle Database");
+		return "find " + sql + " Oracle Database";
 	}
 	public void disconnect(){
 		System.out.println("disconnect Oracle Database");
@@ -42,7 +42,7 @@ class MySQL implements DB {
 		System.out.println("delete " + sql + " MySQL Database");
 	}
 	public String find(String sql){
-		System.out.println("find " + sql + " MySQL Database");
+		return "find " + sql + " MySQL Database";
 	}
 	public void disconnect(){
 		System.out.println("disconnect MySQL Database");
