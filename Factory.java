@@ -7,7 +7,7 @@ public interface DB {
 	public void disconnect();
 }
 
-class Oracle implements {
+class Oracle implements DB {
 	public void connect(){
 		System.out.println("Connect to Oracle Database");
 	}
@@ -28,7 +28,7 @@ class Oracle implements {
 	}
 }
 
-class MySQL implements {
+class MySQL implements DB {
 	public void connect(){
 		System.out.println("Connect to MySQL Database");
 	}
