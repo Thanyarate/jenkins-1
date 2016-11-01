@@ -1,4 +1,4 @@
-interfaces DB {
+interface DB {
 	public void connect();
 	public void insert(String sql);
 	public void update(String sql);
