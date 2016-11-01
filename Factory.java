@@ -12,7 +12,7 @@ class Oracle implements {
 		System.out.println("Connect to Oracle Database");
 	}
 	public void insert(String sql){
-		System.out.println("insert" + sql " to Oracle Database");
+		System.out.println("insert" + sql + " to Oracle Database");
 	}
 	public void update(String sql){
 		System.out.println("update" + sql + "to Oracle Database");
@@ -33,7 +33,7 @@ class MySQL implements {
 		System.out.println("Connect to MySQL Database");
 	}
 	public void insert(String sql){
-		System.out.println("insert" + sql " to MySQL Database");
+		System.out.println("insert" + sql +" to MySQL Database");
 	}
 	public void update(String sql){
 		System.out.println("update" + sql + "to MySQL Database");
